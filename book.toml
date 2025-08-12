@@ -1,0 +1,9 @@
+[book]
+authors = ["Narayan G. Maharjan"]
+language = "en"
+src = "src"
+title = "Cardano Projects - Metrics & Insights"
+
+
+[build]
+build-dir = "docs" 
