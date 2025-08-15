@@ -1,4 +1,4 @@
-# Intro
+# Introduction 
 
 > **Your hub for tracking and understanding the entire Cardano ecosystem.**
 

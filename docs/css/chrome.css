@@ -96,9 +96,10 @@ html:not(.js) .left-buttons button {
 }
 
 .menu-title {
+    font-family: 'Advent Pro', 'Open Sans', Arial, sans-serif;
     display: inline-block;
     font-weight: 200;
-    font-size: 2.4rem;
+    font-size: clamp(12px, 2vw, 10vw);
     line-height: var(--menu-bar-height);
     text-align: center;
     margin: 0;
@@ -480,7 +481,7 @@ html:not(.sidebar-resizing) .sidebar {
 .sidebar .sidebar-scrollbox {
     overflow-y: auto;
     position: absolute;
-    top: 20%;
+    top: 30%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -607,6 +608,8 @@ html:not(.sidebar-resizing) .sidebar {
 
 .chapter li.chapter-item {
     line-height: 1.5em;
+    font-size: 1.1em;
+    font-family: 'Open Sans', Arial, sans-serif;
     margin-block-start: 0.6em;
 }
 
