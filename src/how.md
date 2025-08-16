@@ -1,5 +1,7 @@
 # How Does It Work?
 
+[<img src="assets/architecture.png" width="500" />](assets/architecture.png "How does it work") 
+ 
 The platform operates by continuously collecting and analyzing data from a variety of sources, including Project Catalyst, on-chain data, and community channels. All metrics and analytics are built from scratch to ensure transparency and accuracy.
 
 ## Key Features

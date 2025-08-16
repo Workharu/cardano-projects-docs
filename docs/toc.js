@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="why.html"><strong aria-hidden="true">2.</strong> Why do we need this doc ?</a></li><li class="chapter-item expanded "><a href="how.html"><strong aria-hidden="true">3.</strong> How does it work ?</a></li><li class="chapter-item expanded "><a href="roadmap.html"><strong aria-hidden="true">4.</strong> What&#39;s coming?</a></li><li class="chapter-item expanded "><a href="suggestion.html"><strong aria-hidden="true">5.</strong> Any Suggestion?</a></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="why.html"><strong aria-hidden="true">2.</strong> Why do we need this app ?</a></li><li class="chapter-item expanded "><a href="how.html"><strong aria-hidden="true">3.</strong> How does it work ?</a></li><li class="chapter-item expanded "><a href="roadmap.html"><strong aria-hidden="true">4.</strong> What&#39;s coming?</a></li><li class="chapter-item expanded "><a href="suggestion.html"><strong aria-hidden="true">5.</strong> Any Suggestion?</a></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString().split("#")[0].split("?")[0];
         if (current_page.endsWith("/")) {
